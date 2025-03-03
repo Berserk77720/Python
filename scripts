@@ -1,1 +1,4 @@
-scripts/teste.txt
+#Exemple
+# The program checks whether the number is greater or less than 100
+n = int(input("Informe um número: "))
+print("O número é maior ou igual a 100" if n >= 100 else "O número é menor que 100")
